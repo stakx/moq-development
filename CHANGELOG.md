@@ -15,7 +15,7 @@ The format is loosely based on [Keep a Changelog](http://keepachangelog.com/en/1
 
 #### Changed
 
-* Improve performance for mocking large interfaces (@rauhsm, #1351)
+* Improve performance for mocking large interfaces (@rauhs, #1351)
 
 #### Fixed
 
