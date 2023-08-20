@@ -13,9 +13,20 @@ The format is loosely based on [Keep a Changelog](http://keepachangelog.com/en/1
 * `setup.Verifiable(Times times, [string failMessage])` method to specify the expected number of calls upfront. `mock.Verify[All]` can then be used to check whether the setup was called that many times. The upper bound (maximum allowed number of calls) will be checked right away, i.e. whenever a setup gets called. (@stakx, #1319)
 * Add `ThrowsAsync` methods for non-generic `ValueTask` (@johnthcall, #1235)
 
+#### Changed
+
+* Improve performance for mocking large interfaces (@rauhsm, #1351)
+
 #### Fixed
 
 * Verifying a protected generic method that returns a value is broken (@nthornton2010, #1314)
+
+
+----
+
+**Note:** This is the fork-off point of `stakx.Moq` from `Moq`. All of the 4.* versions above are published from this fork's `v4` branch as `stakx.Moq`; the versions below were published from the [parent project](https://github.com/moq/moq) as `Moq`. The above releases are therefore different from those of the parent project, even where version numbers match!
+
+----
 
 
 ## 4.18.4 (2022-12-30)
