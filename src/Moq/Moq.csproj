@@ -26,11 +26,10 @@
 	<PropertyGroup>
 		<!-- Properties related to NuGet packaging: -->
 		<IsPackable>True</IsPackable>
-		<PackageId>Moq</PackageId>
-		<Title>Moq: an enjoyable mocking library</Title>
-		<Description>Moq is the most popular and friendly mocking framework for .NET.</Description>
-		<PackageReleaseNotes>A changelog is available at https://github.com/moq/moq4/blob/main/CHANGELOG.md.</PackageReleaseNotes>
-		<Authors>Daniel Cazzulino, kzu</Authors>
+		<PackageId>stakx.Moq</PackageId>
+		<Description>stakx' fork of Moq, a popular and friendly mocking framework for .NET.</Description>
+		<PackageReleaseNotes>A changelog is available at https://github.com/stakx/moq/blob/v4/CHANGELOG.md.</PackageReleaseNotes>
+		<Authors>stakx</Authors>
 		<Copyright>Copyright (c) 2007, Clarius Consulting, Manas Technology Solutions, InSTEDD, and Contributors. Copyright (c) 2023 stakx and contributors. All rights reserved.</Copyright>
 		<PackageIcon>moq.png</PackageIcon>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
@@ -38,8 +37,8 @@
 		<NoPackageAnalysis>True</NoPackageAnalysis>
 		<PackageOutputPath>$(OutputDirectory)</PackageOutputPath>
 		<PackageTags>moq;tdd;mocking;mocks;unittesting;agile;unittest</PackageTags>
-		<PackageProjectUrl>https://github.com/moq/moq4</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/moq/moq4</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/stakx/moq</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/stakx/moq</RepositoryUrl>
 		<IncludeSymbols>false</IncludeSymbols>
 	</PropertyGroup>
 

@@ -25,7 +25,7 @@ after_test:
 deploy:
   - provider: NuGet
     api_key:
-      secure: 5dsPohRA1/Bm/yD1DTUDZ5ZUAH7+jjWWcy6wnFZrWDKG4C8VOInfdWj/71SZgHYG
+      secure: rPsxT+QJ8XP1tw0XuAtV6TXP9j1rhQXFEDXg66U1BAv80jdHKrgR8BQpiqZ8zLA7
     on:
       appveyor_repo_tag: true
 

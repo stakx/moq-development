@@ -1,4 +1,5 @@
 // Copyright (c) 2007, Clarius Consulting, Manas Technology Solutions, InSTEDD, and Contributors.
+// Copyright (c) 2023 stakx and contributors.
 // All rights reserved. Licensed under the BSD 3-Clause License; see License.txt.
 
 using System;
@@ -102,7 +103,7 @@ namespace Moq
 						if (match.GetType().IsGenericType)
 						{
 							// If match type is `Match<int>`, matchedValuesType set to `int`
-							// Fix for https://github.com/moq/moq4/issues/1199
+							// Fix for https://github.com/moq/moq/issues/1199
 							matchedValuesType = match.GetType().GenericTypeArguments[0];
 						}
 						else

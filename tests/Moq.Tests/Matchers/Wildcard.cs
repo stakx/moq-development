@@ -1,8 +1,12 @@
-﻿using Xunit;
+﻿// Copyright (c) 2007, Clarius Consulting, Manas Technology Solutions, InSTEDD, and Contributors.
+// Copyright (c) 2023 stakx and contributors.
+// All rights reserved. Licensed under the BSD 3-Clause License; see License.txt.
+
+using Xunit;
 using System;
 
 /// <summary>
-/// Tests for https://github.com/moq/moq4/issues/1199
+/// Tests for https://github.com/moq/moq/issues/1199
 /// </summary>
 
 namespace Moq.Tests.Matchers.Wildcard
